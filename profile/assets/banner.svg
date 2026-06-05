@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 340" role="img" aria-label="wabox — the filesystem is the API" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#1b3a5b" stroke-width="1" opacity="0.5"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1b2a" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0d1b2a" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="1280" height="340" fill="#0d1b2a"/>
+  <rect width="1280" height="340" fill="url(#grid)"/>
+  <rect width="1280" height="340" fill="url(#fade)"/>
+
+  <!-- hexagon node logo -->
+  <g transform="translate(96,52) scale(1.5)">
+    <path d="M32 6 L54 19 V45 L32 58 L10 45 V19 Z"
+          fill="#123a2a" stroke="#3ddc84" stroke-width="3.5" stroke-linejoin="round"/>
+    <text x="32" y="41" text-anchor="middle"
+          font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif"
+          font-weight="800" font-size="26" fill="#bff5d6">w</text>
+  </g>
+
+  <!-- wordmark + tagline -->
+  <text x="200" y="118" font-size="64" font-weight="700" fill="#eaf3ff" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">wabox</text>
+  <text x="202" y="150" font-size="20" fill="#7fa8d8" letter-spacing="1">the filesystem is the API</text>
+
+  <!-- flow diagram -->
+  <g font-size="15" fill="#dcebff">
+    <!-- channels node -->
+    <rect x="96" y="216" width="360" height="64" rx="10" fill="#16314c" stroke="#3b6ea5" stroke-width="1.5"/>
+    <text x="276" y="244" text-anchor="middle" fill="#9fc1e8" font-size="13" letter-spacing="1">CHANNELS</text>
+    <text x="276" y="266" text-anchor="middle" fill="#dcebff" font-size="15">WhatsApp · Slack · Discord · Telegram</text>
+
+    <!-- arrow 1 -->
+    <path d="M462 248 H512" stroke="#3b6ea5" stroke-width="2" marker-end="url(#ah)"/>
+
+    <!-- core node (green) -->
+    <rect x="520" y="216" width="220" height="64" rx="10" fill="#123a2a" stroke="#3ddc84" stroke-width="1.8"/>
+    <text x="630" y="244" text-anchor="middle" fill="#7ee2a8" font-size="13" letter-spacing="1">FILESYSTEM</text>
+    <text x="630" y="266" text-anchor="middle" fill="#bff5d6" font-size="15" font-weight="700">inbox/ · outbox/</text>
+
+    <!-- arrow 2 -->
+    <path d="M746 248 H806" stroke="#3b6ea5" stroke-width="2" marker-end="url(#ah)"/>
+
+    <!-- agents node -->
+    <rect x="812" y="216" width="360" height="64" rx="10" fill="#16314c" stroke="#3b6ea5" stroke-width="1.5"/>
+    <text x="992" y="244" text-anchor="middle" fill="#9fc1e8" font-size="13" letter-spacing="1">AGENTS</text>
+    <text x="992" y="266" text-anchor="middle" fill="#dcebff" font-size="15">wabox-bot · Claude · your scripts</text>
+  </g>
+
+  <defs>
+    <marker id="ah" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#3b6ea5"/>
+    </marker>
+  </defs>
+</svg>
