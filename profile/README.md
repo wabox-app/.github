@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/rodgco/wabox/blob/main/LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-3ddc84.svg"></a>
+  <a href="https://github.com/wabox-app/wabox/blob/main/LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-3ddc84.svg"></a>
   <a href="https://www.npmjs.com/package/wabox"><img alt="npm" src="https://img.shields.io/npm/v/wabox.svg?color=3ddc84"></a>
-  <a href="https://github.com/rodgco/wabox/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/rodgco/wabox/actions/workflows/ci.yml/badge.svg"></a>
+  <a href="https://github.com/wabox-app/wabox/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/wabox-app/wabox/actions/workflows/ci.yml/badge.svg"></a>
   <img alt="Platforms" src="https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows-3b6ea5.svg">
   <img alt="node" src="https://img.shields.io/badge/node-%3E%3D18-3b6ea5.svg">
 </p>
@@ -20,8 +20,8 @@
 
 | Project | What it is | Status |
 | --- | --- | --- |
-| [**wabox**](https://github.com/rodgco/wabox) | Core bridge — WhatsApp ↔ filesystem, CLI, background service | ✅ shipped · v0.1.10 |
-| **wabox-bot** | Bash bridge: filesystem ↔ Claude (more frameworks later) | ◐ in progress |
+| [**wabox**](https://github.com/wabox-app/wabox) | Core bridge — WhatsApp ↔ filesystem, CLI, background service | ✅ shipped · v0.1.10 |
+| [**wabox-bot**](https://github.com/wabox-app/wabox-bot) | Bash bridge: filesystem ↔ Claude (more frameworks later) | ◐ in progress |
 | **channel adapters** | Slack · Discord · Telegram — same `inbox/`/`outbox/` contract | ○ planned |
 | **docs / examples** | Integration recipes & the agent contract | ○ planned |
 
